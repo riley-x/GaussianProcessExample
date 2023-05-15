@@ -5,6 +5,8 @@ A simple example of implementing and plotting a Gaussian process. The user can e
 ![prior distribution](prior.png)
 ![posterior distribution](posterior.png)
 
+The colored solid lines are random draws from the process, the dashed black line is the mean, and the gray band is the 95% confidence interval. The black squares are the training points in the second image. 
+
 ## Requirements 
 
 Numpy, and optionally Matplotlib for plotting.
@@ -22,7 +24,7 @@ which takes arbitrary training data and test points, and outputs the posterior m
 ```py
 plot_gp(X_test, mean, cov)
 ```
-to plot the predictive distribution.
+to plot the predictive distribution, as shown above.
 
 ## Acknowledgements
 
