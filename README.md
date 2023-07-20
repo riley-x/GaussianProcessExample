@@ -9,7 +9,7 @@ The colored solid lines are random draws from the process, the dashed black line
 
 ## Requirements 
 
-Numpy, and optionally Matplotlib for plotting.
+Numpy, Matplotlib, and optionally scikit-learn.
 
 ## Usage
 
