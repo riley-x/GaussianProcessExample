@@ -11,12 +11,9 @@ The colored solid lines are random draws from the process, the dashed black line
 
 Numpy, Matplotlib, and optionally scikit-learn.
 
-## Usage
+## Playground Notebook
 
-The notebook can be run as is. Feel free to edit the inputs in the **Test Bench** section of the Jupyter notebook to play around with different configurations.
-
-
-The main function is 
+The notebook `gaussian_process.ipynb` contains the main playground. Edit the inputs in the **Test Bench** section of the Jupyter notebook to play around with different configurations. The main function is 
 ```py
 get_posterior(X_train, y_train, X_test)
 ``` 
@@ -24,7 +21,11 @@ which takes arbitrary training data and test points, and outputs the posterior m
 ```py
 plot_gp(X_test, mean, cov)
 ```
-to plot the predictive distribution, as shown above.
+to plot the predictive distribution, as shown above. This notebook also demonstrates using scikit-learn's version of Gaussian process too.
+
+## HEP Notebook
+
+This notebook goes through some pedagogical examples in high-energy physics. This requires ROOT to be installed, and make sure to check out the plotting submodule.
 
 ## Acknowledgements
 
